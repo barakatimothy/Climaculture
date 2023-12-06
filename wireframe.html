@@ -28,6 +28,19 @@
       padding: 2rem;
       text-align: center;
     }
+
+    section {
+      margin-bottom: 20px;
+      padding: 20px;
+      background-color: rgba(255, 255, 255, 0.9); /* Soft white background */
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    }
+
+    p {
+      margin: 0;
+    }
+
   </style>
 </head>
 <body>
@@ -36,12 +49,39 @@
   </header>
 
   <main>
-    <!-- Your weather content goes here -->
-    <p>Current Temperature: 25°C</p>
-    <p>Weather: Sunny</p>
-    <!-- Add more weather information as needed -->
+    <section id="location-info">
+      <!-- Location and date information -->
+      <p>West Kajulu, Kisumu</p>
+      <p>December 6, 2023 10:30 AM</p>
+    </section>
+
+    <section id="current-weather">
+      <!-- Current weather conditions, temperature, and weather icon -->
+      <p>Current Temperature: 25°C</p>
+      <p>Weather: Sunny</p>
+    </section>
+
+    <section id="forecast">
+      <!-- Weather forecast for the upcoming days -->
+      <p>Weather in 2 hours from now:</p>
+      <p>Temperature: 28°C</p>
+      <p>Weather: Partly Cloudy</p>
+    </section>
+    
+    <section id="additional-details">
+      <!-- Additional weather details (e.g., humidity, wind speed) -->
+      <p>Humidity: 34 milligrams</p>
+      <p>Wind Speed: 30 km/hr</p>
+    </section>
+
+    <section id="carbon-emission-footprint">
+      <!-- Call to action elements -->
+      <p>Today's Carbon Emission Footprint: 23 Kilotons</p>
+    </section>
   </main>
 </body>
 </html>
+
+
 
 
